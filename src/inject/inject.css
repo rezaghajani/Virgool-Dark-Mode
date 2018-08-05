@@ -1,0 +1,475 @@
+.navbar {
+    background: #242424 !important;
+}
+
+.btn-text {
+    color: #eee !important;
+}
+
+.btn .hidden-xs .btn-text {
+    color: #eee !important;
+}
+
+.page-home {
+    background: #242424 !important;
+}
+
+.section--subtitle {
+    color: gainsboro !important;
+}
+
+.sidebar .block .block--title {
+    color: gainsboro !important;
+}
+
+.sidebar .block .block-list.Posts li .Posts-info-title {
+    color: floralwhite !important;
+}
+
+.sidebar .block .block-header-tags a {
+    color: lavender !important;
+}
+
+.toggle-content:after, .toggle-content:before {
+    background: #121212 !important;
+}
+
+.footer--nav ul li a {
+    color: honeydew !important;
+}
+
+.toggle.open .toggle-content {
+    background-color: #121212 !important;
+}
+
+.navbar .user-menus-list li a {
+    color: #eee !important;
+}
+
+.navbar .user-menus-list:first-child li a {
+    color: #107abe !important;
+}
+.navbar .user-menus-list li a span {
+    color: gainsboro !important;
+}
+
+.toggle--border-none .toggle-content .toggle--item a {
+    color: #eee !important;
+}
+
+.notify-list .notify--title {
+    background: #121212 !important ;
+
+}
+
+.notify-items li {
+    background-color: #242424 !important;
+}
+
+.notify-items li .user-info-name {
+    color: #eee !important;
+}
+
+.notify-items li .user-info-action {
+    color: white !important;
+}
+
+.notify-list .notify--title {
+    color: #eee !important;
+}
+
+.notify.open .notify-list {
+    background: #121212 !important;
+}
+
+.post-stream .card-post {
+    background: #121212 !important;
+}
+
+.post-stream .card-post .post-meta .meta--time {
+    color: #eee !important;
+
+}
+
+.post-stream .card-post .post-content .post--title {
+    color: white !important;
+}
+
+.post-stream .card-post .post-content .post--text {
+    color: #eee !important;
+}
+
+.btn-bookmark svg, .btn-like svg {
+    stroke: #eee !important;
+}
+
+.btn-bookmark svg, .btn-like svg {
+    stroke: #eee !important;
+}
+
+.btn-action .iconLabel {
+    color: #eee !important;
+}
+
+.page {
+    background: #242424 !important;
+}
+
+.author .module--name {
+    color: white !important;
+}
+
+.author .module-footer {
+    color: #eee !important;
+}
+
+.page-privacy .article--title, .page-privacy h1, .page-single .article--title, .page-single h1, .page-terms .article--title, .page-terms h1, .page-what-is-publication .article--title, .page-what-is-publication h1 {
+    color: white !important;
+}
+
+[class*=md-block-]:not(.md-block-code).md-block-rtl {
+    color: #eee !important;
+}
+
+.md-block-image figcaption {
+    color: #eee !important;
+}
+
+.comments {
+    background: #121212 !important;
+}
+
+.post-suggestion .postItem .postItemContent {
+    background: #242424 !important;
+}
+
+.post-suggestion .section--title {
+    color: white !important;
+}
+
+.post-suggestion .postItem--title {
+    color: #eee !important;
+}
+
+.splash-page .splash-container {
+    background: #242424 !important;
+}
+
+#form-handler .btn-link {
+    color: white !important;
+}
+
+.ul-bullet-style li {
+    color: #eee !important;
+}
+
+p {
+    color: white !important
+
+}
+
+.page-contactus .contact-container h2 {
+    color: white !important;
+}
+
+.page-contactus .contact-container span {
+    color: #eee !important;
+}
+
+.page-contactus .contact-container .name-email input {
+    background: #121212 !important;
+    color: #eee;
+}
+
+.page-contactus .contact-container .form-group textarea {
+    background: #121212 !important;
+}
+
+.userInfo .name, .userInfo .readTime {
+    color: white !important;
+}
+
+.comments .section--title {
+    color: white !important;
+}
+
+.comments .card-cm {
+    background-color: #242424 !important;
+}
+
+.comments .responses-editor .responses-header {
+    color: ghostwhite !important;
+}
+
+.modal .modal-content {
+    background: #242424 !important;
+}
+
+.modal .modal-content .modal-body.text-center {
+    color: white !important;
+}
+
+.btn-gray-color {
+
+    color: #eee !important;
+}
+
+.modal-buttons .register-btn {
+    color: white !important;
+}
+
+.page-privacy .page-content .footerPostSticky.is-visible, .page-single .page-content .footerPostSticky.is-visible, .page-terms .page-content .footerPostSticky.is-visible, .page-what-is-publication .page-content .footerPostSticky.is-visible {
+    background-color: #0F0F0F !important 
+}
+
+.page-privacy .page-content .footerPostSticky .isnot-login .profile-desc .footer-description .mobile-show, .page-single .page-content .footerPostSticky .isnot-login .profile-desc .footer-description .mobile-show, .page-terms .page-content .footerPostSticky .isnot-login .profile-desc .footer-description .mobile-show, .page-what-is-publication .page-content .footerPostSticky .isnot-login .profile-desc .footer-description .mobile-show {
+    color: white !important;
+}
+
+.page-privacy .page-content .footerPostSticky .isnot-login .profile-desc .footer-description .mobile-hide, .page-single .page-content .footerPostSticky .isnot-login .profile-desc .footer-description .mobile-hide, .page-terms .page-content .footerPostSticky .isnot-login .profile-desc .footer-description .mobile-hide, .page-what-is-publication .page-content .footerPostSticky .isnot-login .profile-desc .footer-description .mobile-hide {
+    color: white !important;
+}
+
+.page-contactus .contact-container .email-address {
+    color: white !important;
+}
+
+.email-address a {
+    color: #eee !important;
+}
+
+.comments .card-cm .cm-body {
+    color: #eee !important;
+}
+
+.page-contactus .contact-container .form-group .name {
+    background: #121212 !important;
+    color: #eee !important;
+}
+
+.btn-comment svg {
+    fill: white !important;
+}
+
+.page-privacy .post-actions .share-buttons>a svg, .page-single .post-actions .share-buttons>a svg, .page-terms .post-actions .share-buttons>a svg, .page-what-is-publication .post-actions .share-buttons>a svg {
+    fill: white !important;
+}
+
+.page-privacy .post-actions .share-buttons>a svg, .page-single .post-actions .share-buttons>a svg, .page-terms .post-actions .share-buttons>a svg, .page-what-is-publication .post-actions .share-buttons>a svg {
+    fill: white !important;
+}
+
+.m-listview, .page-contactus .page-inner {
+    background: #242424 !important;
+}
+
+.user-information .follow-count .follow-label:hover {
+    color: #eee !important
+}
+
+.user-information .follow-count .follow-label {
+    color: white !important
+}
+
+.user-information .follow-count .follow-label span {
+    color: white !important;
+}
+
+.author .edit-content .btn {
+    color: white !important;
+    border-color: white !important;
+}
+
+.body-createPost .editor--title input[value=""], .body-editPost .editor--title input[value=""] {
+    background: #242424 !important;
+}
+
+.editor--title {
+    color: white !important;
+    background: #242424 !important;
+}
+
+.md-sb-button>svg {
+    fill: white !important;
+    background: none !important;
+}
+
+.md-sb-button.md-sb-img-button {
+    background: none !important;
+}
+
+.md-sb-button svg path {
+    fill: white !important;
+}
+
+.md-sb-button.md-add-button {
+    border-color: white !important;
+}
+
+.md-sb-button.md-sb-img-button {
+    border-color: white !important;
+}
+
+svg.white {
+    background: none !important;
+}
+
+.m-listview, .page-contactus .page-inner {
+    background: #242424 !important;
+}
+
+.body-editprofile .module.author .module-info .module-header input {
+    color: white !important;
+}
+
+.section-setting--title {
+    color: white !important;
+}
+
+#about {
+    color: white !important;
+}
+
+.section-setting .sg--title {
+    color: #eee !important;
+}
+
+.body-editprofile .btn-action-username {
+    border-color: white !important;
+    color: white !important;
+}
+
+.section-setting-group div {
+    color: #eee !important;
+}
+
+.section-setting-group input {
+    color: white !important;
+}
+
+.section-setting .sg--title>small {
+    color: #eee !important;
+}
+
+.section-setting .section-toggleButton .toggleButton-group--title {
+    color: #eee !important;
+}
+
+.section-setting-group input {
+    color: white !important;
+    background: #121212 ;
+}
+
+.label--username div input {
+    background: none !important;
+}
+
+.btn-border {
+    color: white !important;
+    border-color: #eeeeee !important;
+}
+.btn-border:hover {
+    border-color: #107abe !important;
+}
+
+.m-listview .listview-header .listview--label+* {
+    color: white !important;
+}
+
+.m-listview .listview-header .listview--label.showName h2 {
+    color: #eeeeee !important;
+}
+
+
+.DraftEditor-editorContainer {
+    background: #242424 !important;
+    color: white !important;
+}
+
+.body-createPost .site-main, .body-editPost .site-main {
+    padding-top: 104px !important;
+}
+
+.body-createPost .editor--title input, .body-editPost .editor--title input {
+    background: #242424 !important;
+    color: white !important;
+}
+
+.page-drafts .draft-item .draft--name a {
+    color: white !important;
+}
+
+.page-drafts .draft-item-info .last-edit {
+    color: aliceblue !important;
+}
+
+.toggle--icon {
+    fill: white !important;
+}
+
+.site-main {
+    padding-top: 41px !important;
+}
+
+h1, h2, h3, h4, h5, h6, ul {
+    color: white !important;
+}
+
+.body-stats .list-stats--title>span {
+    border-bottom: 1px solid white !important;
+    color: white !important;
+}
+
+.stats-chart-buttons .button--chart[disabled=disabled] {
+    opacity: .5;
+    color: white !important;
+}
+
+.stats-chart-buttons .button--chart:hover {
+    color: white !important;
+}
+
+.stats-chart-buttons .button--chart {
+    color: white !important;
+}
+
+.stats-chart-buttons .button--chart svg {
+    fill: white !important;
+}
+
+.stats-chart-buttons .button--chart svg {
+    fill: white !important;
+}
+
+.stats-chart svg .ct-grids line:first-child {
+    stroke: white !important;
+}
+
+.ct-label.ct-vertical.ct-start {
+    color: white !important;
+}
+
+.ct-chart-bar .ct-label.ct-horizontal.ct-end {
+    color: white !important;
+}
+
+
+.stats-chart-buttons .verticalDivider {
+    border-right: 1px solid white !important;
+}
+
+.ct-grid {
+    stroke: white !important;
+}
+
+.m-listview .listview-header .listview--label.showCount {
+    color: #eeeeee !important;
+}
+
+svg:not(:root) {
+    fill: white !important;
+}
+
+.site-body {
+    background: #242424 !important;
+}
