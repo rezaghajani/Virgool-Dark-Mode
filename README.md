@@ -1,6 +1,4 @@
-# Persian-Dark-Night-Mode-Chrome-Extensions
-Persian Dark Night Mode is a free open source chrome extension which turns iranian websites you browse into dark/night mode so that the white bright light do not strain your eyes.
-
+# Virgool Dark Mode 
+Enable dark mode on virgool.io.
 -------------------------------------------------------------------------------------------------------
-
-این یک افزونه برای گوگل کروم است که سایت های ایرانی که در حال بازدید از آن هستید را به حالت تیره در می آورد.
+.افزونه ای برای گوگل کروم که میتونید سایت ویرگول رو به حالت دارک در بیارید
