@@ -1,39 +1,34 @@
 {
-"update_url": "https://clients2.google.com/service/update2/crx",
-
-  "version": "2.0.1",
-  "name": "Persian Dark Night Mode",
+  "name": "Dark Mode For Virgool",
+  "version": "1.0.0",
   "manifest_version": 2,
-  "short_name": "persiandarknightmode",
-  "description": "Persian Dark Night Mode is a free open source chrome extension which turns iranian websites you browse into dark/night mode so that the white bright light do not strain your eyes.",
-  "permissions": ["tabs","storage", "<all_urls>", "contextMenus"],
-  "web_accessible_resources": ["css/*.css"],
-  "options_page": "templates/options.html",
-  "offline_enabled": true,
+  "description": "Enable dark mode on virgool.io.",
   "icons": {
-      "48": "icons/icon48.png",
-      "128": "icons/icon.png"
+    "16": "icons/16.png",
+    "48": "icons/64.png",
+    "128": "icons/128.png"
   },
-  "browser_action": {
-      "default_icon"    : "icons/icon.png",
-      "default_popup"   : "templates/popup.html"
+  "default_locale": "en",
+  "options_page": "src/options/index.html",
+  "page_action": {
+    "default_icon": "icons/16.png",
+    "default_title": "page action demo",
+    "default_popup": "src/page_action/page_action.html"
   },
+  "permissions": [
+    "contentSettings",
+    "contextMenus",
+    "https://virgool.io/*"
+
+  ],
   "content_scripts": [
-        {
-            "all_frames": true,
-            "match_about_blank": true,
-            "matches": ["<all_urls>"],
-            "run_at": "document_start",
-            "exclude_globs": ["*/chrome/newtab*"],
-            "js": ["js/main.js"]
-        },
-        {
-            "all_frames": true,
-            "match_about_blank": true,
-            "matches": ["<all_urls>"],
-            "run_at": "document_start",
-            "exclude_globs": ["*/chrome/newtab*"],
-            "css": ["css/universal.css"]
-        }
-    ]
+    {
+      "matches": [
+        "https://virgool.io/*"
+      ],
+      "css": [
+        "src/inject/inject.css"
+      ]
+    }
+  ]
 }

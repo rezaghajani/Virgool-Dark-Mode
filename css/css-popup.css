@@ -12,7 +12,7 @@ body {
   margin: 0px;
   color: #b8b8b8;
   /* margin-right:  4px; */
-  width: 322px;
+  width: 422px;
 }
 h1 {
   font-size: 15px;
@@ -133,15 +133,14 @@ span.dnm-chrome-slider-stt {
 }
 
 .dark1{
-  font-size: 42px;
+  font-size: 35px;
   color: #424445;
   font-weight: 700;
-  letter-spacing: 4px; */
-  margin-bottom:;
+  letter-spacing: 4px; 
   padding-bottom:  5px;
 }
 
-.mode1{display: inline;font-size: 39px;color: #424445;font-weight: 700;position:  relative;top: -15px;letter-spacing: 4px; */}
+.mode1{display: inline;font-size: 30px;color: #424445;font-weight: 700;position:  relative;top: -5px;letter-spacing: 4px;}
 
 
 .bright1{

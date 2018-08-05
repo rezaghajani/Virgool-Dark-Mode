@@ -1,6 +1,7 @@
 <!doctype html>
 <html>
   <head>
+      <meta charset="utf-8" />
     <title>Dark Mode Always Extension </title>
     <link href="/css/range-slider.css" rel="stylesheet" type="text/css">
     <link href="/css/balloon.css" rel="stylesheet" type="text/css">
@@ -9,6 +10,12 @@
     <script src="/js/jquery.min.js"></script>
     <script src="/js/range-slider.min.js"></script>
     <script src="/js/option-popup.js"></script>
+
+    <style>
+    #dnm-brightness-warning {
+        direction: rtl;
+    }
+    </style>
   </head>
 
   <body>
@@ -16,8 +23,8 @@
     <div id="container">
         <form id='google-chrome-options'>
             <fieldset class="dma-darknightmode-block">
-                <label class='dnm-chrome-action-label dark1'>DARK NIGHT</label>
-                <label class='dnm-chrome-action-label mode1'>MODE</label>
+                <label class='dnm-chrome-action-label dark1'>PERSIAN DARK</label>
+                <label class='dnm-chrome-action-label mode1'>NIGHT MODE</label>
                 <div class="switch-toggle switch-3 switch-candy dnm-chrome-action-div">
                     <input id="on" name="mode_status" type="radio" checked="" value='off' class='mode-status-radio'>
                     <label for="on" >Off</label>
@@ -32,51 +39,17 @@
                 </span>
             </fieldset>
             <fieldset class="bright1">
-                <label class='dnm-chrome-action-label dnm-sllbl bright1'>BRIGHTNESS</label>
-                <span id='dnm-status-slider-update' class='dnm-chrome-slider-stt'>5% brighter</span>
+                <label class='dnm-chrome-action-label dnm-sllbl bright1' style="text-align: center;">روشنایی</label>
                 <div class='dnm-chrome-action-div br2'>
                     <div id='dnm-brightness-slider'>
                         <input id='dnm-brightness-option' type="range" min="11" step='1' max="100" data-rangeSlider>
                         <span class="dma-popup-vertical-line"></span>
                     </div>
-                    <div id='dnm-brightness-status' data-balloon="Lock it if you want brightness adjustment to be ON even when darkmode is OFF." data-balloon-pos="left"></div>
                 </div>
             </fieldset>
             <div id='dnm-brightness-warning'>
-                <b>Warning:</b>
-                <span>Too high brightness may distort colors</span>
-            </div>
-            <fieldset class='dmn-side-on-on whitelist1'>
-                <span id='dnm-brightness-option-label-text' class='dnm-chome-custom-left'>
-                    <label class='dnm-chrome-action-label'>WHITELIST THIS SITE?</label>
-                    <p id='dnm-website-text' class='dnm-website-text'>google.com</p>
-                </span>
-                <div class='dnm-chrome-action-div dmn-'>
-                    <label class="switch">
-                        <input type="checkbox" id='dmn-whitelist-checkbox'>
-                        <span class="slider round"></span>
-                    </label>
-                </div>
-            </fieldset>
-            <div class="dma-suggestion">
-                <p class="dma-suggestion-text">
-                    <span class="dma-suggestion-head">Suggestion :</span>
-                    <span id='dma-suggestions-text-content'></span>
-                </p>
-            </div>
-            <div class="dma-foot">
-                <div class="dma-setting">
-                    <a class="dma-ico dma-settings-ico" href="options.html" target="_blank"></a>
-                </div>
-                <a class="dma-report" href="https://darknightmode.com/report" target="_blank">
-                  <span class="dma-foot-text">Report</span>
-                </a>
-                <a class="dma-donate" href="https://darknightmode.com/donate" target="_blank">
-                  <span class="dma-foot-text">Donate</span>
-                </a>
-                <div class="dma-help">
-                  <a class="dma-ico dma-help-ico" href="https://darknightmode.com/FAQs" target="_blank"></a>
-                </div>
+                <b>هشدار:</b>
+                <span>حداکثر روشنایی ممکن است به رنگ ها آسیب بزند</span>
             </div>
         </form>
     </div>

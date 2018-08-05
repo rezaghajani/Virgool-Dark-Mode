@@ -55,7 +55,6 @@ b {
 a:hover, a:hover *, a:visited:hover, a:visited:hover *, span[onclick]:hover, div[onclick]:hover,
 [role="link"]:hover, [role="link"]:hover *, [role="button"]:hover *, [role="menuitem"]:hover, [role="menuitem"]:hover *, .link:hover, .link:hover * {
   color: #2a3bb1 !important;
-  background-color: #0000009c !important;
 }
 
 a:visited, a:visited * {
