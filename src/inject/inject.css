@@ -473,3 +473,31 @@ svg:not(:root) {
 .site-body {
     background: #242424 !important;
 }
+
+.md-block-code .code-container {
+    color:  white !important;
+    opacity: .8 !important;
+}
+
+.shorturl-text {
+    color: #eee !important;
+
+}
+
+.shorturl-text:hover {
+    background: #121212 !important;
+    color: #eee !important;
+}
+
+.oembedall-default {
+    background-color: #121212 !important;
+    color: white !important;
+}
+
+.oembedall-default .oembedall-title {
+    color: white !important;
+}
+
+.oembedall-default .oembedall-description {
+    color: #eee !important;
+}
