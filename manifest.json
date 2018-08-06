@@ -8,6 +8,7 @@
     "48": "icons/64.png",
     "128": "icons/128.png"
   },
+  
   "default_locale": "en",
   "options_page": "src/options/index.html",
   "page_action": {

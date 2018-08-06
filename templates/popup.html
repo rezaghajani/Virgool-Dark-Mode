@@ -15,6 +15,11 @@
     #dnm-brightness-warning {
         direction: rtl;
     }
+
+    .container {
+        background: #242424;
+
+    }
     </style>
   </head>
 
@@ -23,13 +28,11 @@
     <div id="container">
         <form id='google-chrome-options'>
             <fieldset class="dma-darknightmode-block">
-                <label class='dnm-chrome-action-label dark1'>PERSIAN DARK</label>
-                <label class='dnm-chrome-action-label mode1'>NIGHT MODE</label>
+                <label class='dnm-chrome-action-label dark1'>VIRGOOL</label>
+                <label class='dnm-chrome-action-label mode1'>DARK MODE</label>
                 <div class="switch-toggle switch-3 switch-candy dnm-chrome-action-div">
                     <input id="on" name="mode_status" type="radio" checked="" value='off' class='mode-status-radio'>
                     <label for="on" >Off</label>
-                    <input id="na" name="mode_status" type="radio" checked="checked" value='auto' class='mode-status-radio'>
-                    <label for="na" >Auto</label>
                     <input id="off" name="mode_status" type="radio" value='on' class='mode-status-radio'>
                     <label for="off" >On</label>
                     <a></a>
@@ -38,19 +41,6 @@
                     Auto mode automatically switches on the Dark Night Mode after 8:00 pm your local time and switches of after 6:00 am.
                 </span>
             </fieldset>
-            <fieldset class="bright1">
-                <label class='dnm-chrome-action-label dnm-sllbl bright1' style="text-align: center;">روشنایی</label>
-                <div class='dnm-chrome-action-div br2'>
-                    <div id='dnm-brightness-slider'>
-                        <input id='dnm-brightness-option' type="range" min="11" step='1' max="100" data-rangeSlider>
-                        <span class="dma-popup-vertical-line"></span>
-                    </div>
-                </div>
-            </fieldset>
-            <div id='dnm-brightness-warning'>
-                <b>هشدار:</b>
-                <span>حداکثر روشنایی ممکن است به رنگ ها آسیب بزند</span>
-            </div>
         </form>
     </div>
   </body>
