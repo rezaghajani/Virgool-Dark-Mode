@@ -1,25 +1,27 @@
 {
-  "name": "Dark Mode For Virgool",
-  "version": "1.0.0",
+  "name": "ٰVirgool Dark Mode",
+  "version": "1.1",
   "manifest_version": 2,
-  "description": "Enable dark mode on virgool.io.",
+  "description": "Watch how Virgool looks on dark colors.",
   "icons": {
-    "16": "icons/16.png",
-    "48": "icons/64.png",
-    "128": "icons/128.png"
+    "16": "icons/v64.png",
+    "48": "icons/v64.png",
+    "128": "icons/v128.png"
   },
-  
+
   "default_locale": "en",
   "options_page": "src/options/index.html",
-  "page_action": {
-    "default_icon": "icons/16.png",
-    "default_title": "page action demo",
+
+  "browser_action": {
+    "default_icon": "icons/v64.png",
+    "default_title": "Virgool Dark Theme",
     "default_popup": "src/page_action/page_action.html"
   },
   "permissions": [
     "contentSettings",
     "contextMenus",
-    "https://virgool.io/*"
+    "https://virgool.io/*",
+    "https://aparat.com/*"
 
   ],
   "content_scripts": [
@@ -28,7 +30,15 @@
         "https://virgool.io/*"
       ],
       "css": [
-        "src/inject/inject.css"
+        "src/inject/virgool.css"
+      ]
+    },
+    {
+      "matches": [
+        "https://digikala.com/*"
+      ],
+      "css": [
+        "src/inject/digikala.css"
       ]
     }
   ]
