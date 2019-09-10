@@ -38,7 +38,7 @@ We use Git. for versioning. For the versions available, see the [tags on this re
 
 ## Author
 
-* **Reza Aghajani** - *Creator* - [Jrezaw](https://github.com/jrezaw)
+* **Reza Aghajani** - *Creator* - [Rezaghajani](https://github.com/Rezaghajani)
 
 
 ## License
